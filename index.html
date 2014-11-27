@@ -2,22 +2,14 @@
 layout: default
 ---
 
-<div class="home">
+<div class="medium-9 column">
+  <h2>Libs listing here</h2>
+  <hr/>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis eos nemo officia officiis optio quasi quidem. Fuga harum minima placeat rem tempora vero voluptate!</p>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="medium-3 column">
+  <h2>Side Bar</h2>
+  <hr/>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolore ipsa mollitia nesciunt quos tempora.</p>
 </div>
