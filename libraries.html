@@ -5,14 +5,8 @@ permalink: /libraries/
 ---
 
 <div class="medium-12 column">
-	{% for lib in site.posts %}
-		<h3>{{ lib.title }}
-			<br/>
-			<small>{{lib.date | date: "%-d %B %Y" }}</small>
-		</h3>
-		<hr/>
-		<div class="medium-12 column">
-			{{ lib.content }}
-		</div>
+	{% for lib in site.data.libs %}
+		<!-- Code for Libs form _data, code-php, code-js, articles -->
+		<p>{{ lib.name }}</p>
 	{% endfor %}
 </div>

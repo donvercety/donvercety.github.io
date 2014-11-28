@@ -3,7 +3,7 @@ title: donvercety GitHub Page
 email: office@donvercety.biz
 description: "Coding tutorials, scripts, libraries and how to's for all that is code"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://git.lubo.it" # the base hostname & protocol for your site
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 twitter_username: donvercety
 github_username:  donvercety
 

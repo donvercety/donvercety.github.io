@@ -3,13 +3,23 @@ layout: default
 ---
 
 <div class="medium-9 column">
-  <h2>Libs listing here</h2>
-  <hr/>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis eos nemo officia officiis optio quasi quidem. Fuga harum minima placeat rem tempora vero voluptate!</p>
+	<h2>Libs listing here</h2>
+	<hr/>
+
+	<div class="medium-12 column">
+		{% for post in site.posts %}
+			<h4>{{ post.title }}</h4>
+			<div class="medium-12 column">
+				<p>{{ post.desc }}</p>
+				<a href="{% post_url 2014-11-27-slim-framework %}">more</a>
+			</div>
+		{% endfor %}
+	</div>
+
 </div>
 
 <div class="medium-3 column">
-  <h2>Side Bar</h2>
-  <hr/>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolore ipsa mollitia nesciunt quos tempora.</p>
+	<h2>Side Bar</h2>
+	<hr/>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolore ipsa mollitia nesciunt quos tempora.</p>
 </div>
