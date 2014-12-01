@@ -12,12 +12,11 @@ permalink: /mobile/
 	<div class="well well-sm">
 		<div class="list-group">
 			<a href="{{ mob.link }}" class="list-group-item">
-
 				<h3 id="{{ mob.name | downcase }}" class="list-group-item-heading">{{ mob.name }} 
 					<small>{{ mob.language | upcase }}</small>
 				</h3>
-				<p class="list-group-item-text text-justify">{{ mob.desc }}</p>
 			</a>
+			<p class="list-group-item-text text-justify">{{ mob.desc }}</p>
 			{% if mob.info %}
 				<h5>Related:</h5>
 				{% for i in mob.info %}
