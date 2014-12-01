@@ -2,23 +2,23 @@
 layout: default
 ---
 
-<div class="medium-9 column">
+<div class="col-md-9">
 	<h2>Find what's new</h2>
 	<hr/>
 
-	<div class="medium-12 column">
+	<div class="col-md-12">
 		{% for post in site.posts | sort:"date" %}
 			<h4>{{ post.title }}</h4>
-			<div class="medium-12 column">
+			<div class="col-md-12">
 				<p>{{ post.description }}</p>
-				<a href="{{ post.url }}" class="button success tiny">read mode</a>
+				<a href="{{ post.url }}" class="btn btn-primary btn-xs">read mode</a>
 			</div>
 		{% endfor %}
 	</div>
 
 </div>
 
-<div class="medium-3 column">
+<div class="col-md-3">
 	<h2>&nbsp;</h2>
 	<hr/>
 	{% include sidebar-home.html %}

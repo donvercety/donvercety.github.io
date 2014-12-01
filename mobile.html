@@ -4,30 +4,35 @@ title: Mobile
 permalink: /mobile/
 ---
 
-<div class="medium-9 column">
+<div class="col-md-9">
 	<h2>Mobile Stuff</h2>
 	<hr/>
-	
-	{% for mob in site.data.mobile %}
-		<h4 id="{{ mob.name | downcase }}">{{ mob.name }}</h4>
-		<p>{{ mob.desc }}</p>
-		
-		{% if mob.info %}
-			<h5>Related:</h5>
-			{% for i in mob.info %}
-			<ul class="circle">
-				<li><a href="{{ i.link }}">{{ i.name }}</a></li>
-			</ul>
-			{% endfor %}
-		{% endif %}
-	
-		<p class="text-right"><a href="{{ mob.link }}" class="button tiny">link</a></p>
 
+	{% for mob in site.data.mobile | sort:"name" %}
+	<div class="well well-sm">
+		<div class="list-group">
+			<a href="{{ mob.link }}" class="list-group-item">
+
+				<h3 id="{{ mob.name | downcase }}" class="list-group-item-heading">{{ mob.name }} 
+					<small>{{ mob.language | upcase }}</small>
+				</h3>
+				<p class="list-group-item-text text-justify">{{ mob.desc }}</p>
+			</a>
+			{% if mob.info %}
+				<h5>Related:</h5>
+				{% for i in mob.info %}
+				<ul>
+					<li><a href="{{ i.link }}">{{ i.name }}</a></li>
+				</ul>
+				{% endfor %}
+			{% endif %}
+		</div>
+	</div>
 	{% endfor %}
 
 </div>
 
-<div class="medium-3 column">
+<div class="col-md-3">
 	<h2>&nbsp;</h2>
 	<hr/>
 	{% include sidebar-mobile.html %}

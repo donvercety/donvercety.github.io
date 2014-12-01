@@ -1,5 +1,5 @@
-<ul class="side-nav">
-	{% for mob in site.data.mobile %}
-		<li><a href="#{{ mob.name | downcase }}">{{mob.name}}</a></li>
+<div class="list-group">
+	{% for mob in site.data.mobile | sort:"name" %}
+		<a href="#{{ mob.name | downcase }}" class="list-group-item">{{mob.name}}</a>
 	{% endfor %}
-</ul>
+</div>

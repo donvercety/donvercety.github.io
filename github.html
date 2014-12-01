@@ -4,31 +4,36 @@ title: Git Hub
 permalink: /github/
 ---
 
-<div class="medium-9 column">
+<div class="col-md-9">
 	<h2>Git Hub Repos</h2>
 	<hr/>
 
 	{% for git in site.data.github | sort:"name" %}
-		
-		<h3 id="{{ git.name | downcase }}" >{{ git.name }} <small>{{ git.language | upcase }}</small></h3>
-		<p>{{ git.desc }}</p>
+	<div class="well well-sm">
+		<div class="list-group">
+			<a href="{{ git.link }}" class="list-group-item">
 
-		{% if mob.info %}
-			<h5>Related:</h5>
-			{% for i in mob.info %}
-			<ul class="circle">
-				<li><a href="{{ i.link }}">{{ i.name }}</a></li>
-			</ul>
-			{% endfor %}
-		{% endif %}
+				<h3 id="{{ git.name | downcase }}" class="list-group-item-heading">{{ git.name }} 
+					<small>{{ git.language | upcase }}</small>
+				</h3>
+				<p class="list-group-item-text text-justify">{{ git.desc }}</p>
 
-		<p class="text-right"><a href="{{ git.link }}" class="button tiny">link</a></p>
-
+				{% if mob.info %}
+					<h5>Related:</h5>
+					{% for i in mob.info %}
+					<ul>
+						<li><a href="{{ i.link }}">{{ i.name }}</a></li>
+					</ul>
+					{% endfor %}
+				{% endif %}
+			</a>
+		</div>
+	</div>
 	{% endfor %}
 
 </div>
 
-<div class="medium-3 column">
+<div class="col-md-3">
 	<h2>&nbsp;</h2>
 	<hr/>
 	{% include sidebar-git.html %}

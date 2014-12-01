@@ -1,5 +1,5 @@
-<ul class="side-nav">
+<div class="list-group">
 	{% for git in site.data.github | sort:"name" %}
-		<li><a href="#{{ git.name | downcase }}">{{git.name}}</a></li>
+		<a href="#{{ git.name | downcase }}" class="list-group-item">{{git.name}}</a>
 	{% endfor %}
-</ul>
+</div>

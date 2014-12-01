@@ -10,9 +10,8 @@ description: >
 Ionic
 -----
 
-Start a new project
-
-{% highlight php linenos %}
+**Start a new project:**  
+{% highlight js %}
 $ onic start myApp blank
 $ cd myApp
 $ ionic platform add android
@@ -20,10 +19,12 @@ $ ionic build android
 $ ionic emulate android
 {% endhighlight %}
 
+<br />
+
 *Helpfull links:*
 
  - [Ionic Website][ionic]
 
-
+<!-- Links: -->
 
 [ionic]: http://ionicframework.com/ "Ionic Website"

@@ -1,18 +1,22 @@
 <!doctype html>
 <html lang="en">
-    {% include head.html %}
+{% include head.html %}
 <body>
 
-    {% include header.html %}
+	<div class="container">
+		
+		{% include header.html %}
 
-    <div class="row top-20">
-        <div class="medium-12 column">
-        	{{ content }}
-        </div>
-    </div>
-	
-	{% include footer.html %}
+		<div class="row top-20">
+			<div class="medium-12 column">
+				{{ content }}
+			</div>
+		</div>
+		
+		{% include footer.html %}
 
-  </body>
+	</div>
+
+</body>
 
 </html>
