@@ -15,7 +15,7 @@ permalink: /mobile/
 		</a>
 		<p>{{ mob.desc }}</p>
 		{% if mob.info %}
-			<h5>Related:</h5>
+			<h5 class="text-muted">Related:</h5>
 			{% for i in mob.info %}
 			<ul>
 				<li><a href="{{ i.link }}">{{ i.name }}</a></li>
