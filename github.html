@@ -1,0 +1,35 @@
+---
+layout: default
+title: Git Hub
+permalink: /github/
+---
+
+<div class="medium-9 column">
+	<h2>Git Hub Repos</h2>
+	<hr/>
+
+	{% for git in site.data.github | sort:"name" %}
+		
+		<h3 id="{{ git.name | downcase }}" >{{ git.name }} <small>{{ git.language | upcase }}</small></h3>
+		<p>{{ git.desc }}</p>
+
+		{% if mob.info %}
+			<h5>Related:</h5>
+			{% for i in mob.info %}
+			<ul class="circle">
+				<li><a href="{{ i.link }}">{{ i.name }}</a></li>
+			</ul>
+			{% endfor %}
+		{% endif %}
+
+		<p class="text-right"><a href="{{ git.link }}" class="button tiny">link</a></p>
+
+	{% endfor %}
+
+</div>
+
+<div class="medium-3 column">
+	<h2>&nbsp;</h2>
+	<hr/>
+	{% include sidebar-git.html %}
+</div>

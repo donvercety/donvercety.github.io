@@ -3,15 +3,15 @@ layout: default
 ---
 
 <div class="medium-9 column">
-	<h2>Libs listing here</h2>
+	<h2>Find what's new</h2>
 	<hr/>
 
 	<div class="medium-12 column">
-		{% for post in site.posts %}
+		{% for post in site.posts | sort:"date" %}
 			<h4>{{ post.title }}</h4>
 			<div class="medium-12 column">
-				<p>{{ post.desc }}</p>
-				<a href="{% post_url 2014-11-27-slim-framework %}">more</a>
+				<p>{{ post.description }}</p>
+				<a href="{{ post.url }}" class="button success tiny">read mode</a>
 			</div>
 		{% endfor %}
 	</div>
@@ -19,7 +19,7 @@ layout: default
 </div>
 
 <div class="medium-3 column">
-	<h2>Side Bar</h2>
+	<h2>&nbsp;</h2>
 	<hr/>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolore ipsa mollitia nesciunt quos tempora.</p>
+	{% include sidebar-home.html %}
 </div>

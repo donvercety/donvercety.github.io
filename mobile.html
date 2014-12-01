@@ -1,0 +1,34 @@
+---
+layout: default
+title: Mobile
+permalink: /mobile/
+---
+
+<div class="medium-9 column">
+	<h2>Mobile Stuff</h2>
+	<hr/>
+	
+	{% for mob in site.data.mobile %}
+		<h4 id="{{ mob.name | downcase }}">{{ mob.name }}</h4>
+		<p>{{ mob.desc }}</p>
+		
+		{% if mob.info %}
+			<h5>Related:</h5>
+			{% for i in mob.info %}
+			<ul class="circle">
+				<li><a href="{{ i.link }}">{{ i.name }}</a></li>
+			</ul>
+			{% endfor %}
+		{% endif %}
+	
+		<p class="text-right"><a href="{{ mob.link }}" class="button tiny">link</a></p>
+
+	{% endfor %}
+
+</div>
+
+<div class="medium-3 column">
+	<h2>&nbsp;</h2>
+	<hr/>
+	{% include sidebar-mobile.html %}
+</div>

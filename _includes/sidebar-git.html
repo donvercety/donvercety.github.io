@@ -1,0 +1,5 @@
+<ul class="side-nav">
+	{% for git in site.data.github | sort:"name" %}
+		<li><a href="#{{ git.name | downcase }}">{{git.name}}</a></li>
+	{% endfor %}
+</ul>

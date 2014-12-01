@@ -1,0 +1,27 @@
+# - - -
+
+- name: Liquid
+  link: https://github.com/Shopify/liquid
+  language: mixed
+  desc: >
+    Ruby library for rendering safe templates 
+    which cannot affect the security of the 
+    server they are rendered on. Used by Jekyll:
+  info: false
+
+# - - -
+
+- name: Slim Microframework
+  link: https://github.com/codeguy/Slim
+  language: php
+  desc: >
+    Slim is a PHP micro framework that helps you 
+    quickly write simple yet powerful web applications 
+    and APIs. Slim is easy to use for both beginners 
+    and professionals. Slim favors cleanliness over 
+    terseness and common cases over edge cases. Its 
+    interface is simple, intuitive, and extensively 
+    documented — both online and in the code itself. 
+    Thank you for choosing the Slim Framework for your 
+    next project. I think you're going to love it.
+  info: false
