@@ -9,11 +9,11 @@ permalink: /mobile/
 	<hr/>
 
 	{% for mob in site.data.mobile | sort:"name" %}
-	<div class="jumbotron">
-		<a href="{{ mob.link }}" class="list-group-item">
+	<div class="well">
+		<a href="{{ mob.link }}">
 			<h3 id="{{ mob.name | downcase }}">{{ mob.name }} <small>{{ mob.language | upcase }}</small></h3>
 		</a>
-		<p class="list-group-item-text text-justify">{{ mob.desc }}</p>
+		<p>{{ mob.desc }}</p>
 		{% if mob.info %}
 			<h5>Related:</h5>
 			{% for i in mob.info %}
