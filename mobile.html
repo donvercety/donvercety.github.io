@@ -8,7 +8,7 @@ permalink: /mobile/
 	<h2>Mobile Stuff</h2>
 
 	{% for mob in site.data.mobile | sort:"name" %}
-	<div class="well well-sm">
+	<div class="well">
 		<a href="{{ mob.link }}">
 			<h3 id="{{ mob.name | downcase }}">{{ mob.name }} <small>{{ mob.language | upcase }}</small></h3>
 		</a>
