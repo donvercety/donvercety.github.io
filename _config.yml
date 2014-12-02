@@ -9,8 +9,10 @@ email: office@donvercety.biz
 description: >
   Coding tutorials, scripts, libraries and how to's for all that is code
 
-baseurl: ""							# the subpath of your site, e.g. /blog/
-url: "http://donvercety.github.io" 		# the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/					
+
+# url: "http://localhost:4000"
+url: "http://donvercety.github.io" 		
 
 # Build settings
 markdown: kramdown
