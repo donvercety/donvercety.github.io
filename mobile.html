@@ -5,13 +5,16 @@ permalink: /mobile/
 ---
 
 <div class="col-md-9">
-	<h2>Mobile Stuff</h2>
+	<h2 class="text-center">Mobile Stuff</h2>
 
 	{% for mob in site.data.mobile | sort:"name" %}
 	<div class="well">
-		<a href="{{ mob.link }}">
-			<h3 id="{{ mob.name | downcase }}">{{ mob.name }} <small>{{ mob.language | upcase }}</small></h3>
-		</a>
+		
+		<h3 id="{{ mob.name | downcase }}">
+			<a href="{{ mob.link }}">{{ mob.name }}</a> 
+			<small>{{ mob.language | upcase }}</small>
+		</h3>
+		
 		<p>{{ mob.desc }}</p>
 		{% if mob.info %}
 			<h5 class="text-muted">Related:</h5>

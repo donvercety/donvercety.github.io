@@ -1,6 +1,11 @@
-<h3>Newest posts</h3>
 <div class="list-group">
-	{% for post in site.posts | sort:"date" %}
-		<a href="#{{ mob.name | downcase }}" class="list-group-item">{{ post.title }}</a>
+	{% for node in site.posts | sort:"date" %}
+		{% if node.title %}
+			{% if page.url == node.url %}
+			<a href="{{ node.url }}" class="list-group-item active">{{ node.title }}</a>
+			{% else %}
+			<a href="{{ node.url }}" class="list-group-item">{{ node.title }}</a>
+			{% endif %}
+		{% endif %}
 	{% endfor %}
 </div>

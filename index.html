@@ -2,24 +2,20 @@
 layout: default
 ---
 
-<div class="col-md-9">
-	<h2>Home</h2>
-	<hr/>
+<div class="col-md-8">
+	<h2 class="text-center">Home</h2>
 
-	<div class="col-md-12">
-		{% for post in site.posts | sort:"date" %}
-			<h4>{{ post.title }}</h4>
-			<div class="col-md-12">
-				<p>{{ post.description }}</p>
-				<a href="{{ post.url }}" class="btn btn-primary btn-xs">read mode</a>
-			</div>
-		{% endfor %}
+	{% for post in site.posts | sort:"date" %}
+	<div class="well">
+		<h3>{{ post.title }}</h3>
+		<p class="text-justify">{{ post.description }}</p>
+		<p class="text-right"><a href="{{ post.url }}">read mode</a></p>
 	</div>
+	{% endfor %}
 
 </div>
 
-<div class="col-md-3">
+<div class="col-md-4">
 	<h2>&nbsp;</h2>
-	<hr/>
 	{% include sidebar-home.html %}
 </div>
