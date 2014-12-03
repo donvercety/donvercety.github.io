@@ -102,8 +102,11 @@
     - name: "Debugging part 2"
       link: http://code.tutsplus.com/tutorials/modern-debugging-experience-part-2--cms-22584
 
-    - name: "Web App with Firebase #1"
+    - name: "Web App with Firebase part 1"
       link: http://code.tutsplus.com/tutorials/creating-a-web-app-from-scratch-using-angularjs-and-firebase--cms-22391
+
+    - name: "Using Firebase With AngularJS"
+      link: http://code.tutsplus.com/articles/using-firebase-with-angularjs--cms-22233
 
     - name: Meet Underscore.js
       link: http://code.tutsplus.com/tutorials/getting-cozy-with-underscorejs--net-24581
