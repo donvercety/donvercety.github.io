@@ -121,6 +121,9 @@
     info:
     - name: Understanding RequireJS
       link: http://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/
+    
+    - name: Develop Cross Platform Desktop Apps with PHP
+      link: http://www.sitepoint.com/3-ways-develop-cross-platform-desktop-apps-php/?fb
 
   # - - - - - - - - - -
 
