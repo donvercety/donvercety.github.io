@@ -2,18 +2,19 @@
 layout: default
 title: Git Hub
 permalink: /github/
+tab_number: 2
 ---
 
 <div class="col-md-9">
 	<h2 class="text-center">Git Hub Repositories</h2>
 	
-	{% for git in site.data.github | sort:"name" %}
+	{% for git in site.data.github  %}
 	<div class="well">
 		
-		<h3 id="{{ git.name | downcase }}">
-			<a href="{{ git.link }}">{{ git.name }}</a> 
+		<h4 id="{{ git.name | downcase }}">
+			<a href="{{ git.link }}">{{ git.name }}</a> <br />
 			<small>{{ git.language | upcase }}</small>
-		</h3>
+		</h4>
 		
 		<p>{{ git.desc }}</p>
 		{% if git.info %}

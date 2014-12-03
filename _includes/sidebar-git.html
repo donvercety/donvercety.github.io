@@ -1,5 +1,7 @@
 <div class="list-group">
 	{% for git in site.data.github | sort:"name" %}
-		<a href="#{{ git.name | downcase }}" class="list-group-item">{{git.name}}</a>
+		<a href="#{{ git.name | downcase }}" class="list-group-item">
+			{{git.name}} <span class="pull-right">{{ git.language | downcase }}</span>
+		</a>
 	{% endfor %}
 </div>

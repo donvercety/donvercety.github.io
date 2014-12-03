@@ -1,11 +1,14 @@
 ---
 layout: default
+title: Posts
+permalink: /
+tab_number: 1
 ---
 
 <div class="col-md-8">
-	<h2 class="text-center">Home</h2>
+	<h2 class="text-center">Posts</h2>
 
-	{% for post in site.posts | sort:"date" %}
+	{% for post in site.posts %}
 	<div class="well">
 		<h3>{{ post.title }}</h3>
 		<p class="text-justify">{{ post.description }}</p>

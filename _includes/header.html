@@ -1,18 +1,19 @@
 <header>
 
-	<div class="navbar navbar-default top-20">
+	<div class="navbar navbar-default top-20" role="navigation">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="{{ site.url }}">Home</a>
+			<!-- <a class="navbar-brand" href="#">{{ site.title }}</a> -->
 		</div>
 		<div class="navbar-collapse collapse navbar-responsive-collapse">
 			<!-- left pannel -->
 			<ul class="nav navbar-nav">
-				{% for node in site.pages %}
+				{% assign site_pages = (site.pages | sort: 'tab_number') %}
+				{% for node in site_pages %}
 					{% if node.title %}
 						{% if page.url == node.url %}
 						<li class="active"><a href="{{ node.url | prepend: site.baseurl | prepend: site.url }}">{{ node.title }}</a></li>

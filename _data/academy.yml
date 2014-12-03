@@ -1,0 +1,125 @@
+- title: Apprentice
+  entries:
+
+  - name: Cordova
+    link: http://cordova.apache.org/
+    desc: "Apache Cordova is a platform for building native mobile applications using HTML, CSS and JavaScript."
+    info:
+    - name: SQLite Plugin
+      link: https://github.com/brodysoft/Cordova-SQLitePlugin
+
+  # - - - - - - - - - -
+
+  - name: Ionic
+    link: http://ionicframework.com/
+    desc: "The beautiful, open source front-end SDK for developing hybrid mobile apps with HTML5."
+    info:
+    - name: Basic Configs
+      link: http://learn.ionicframework.com/videos/windows-android/
+
+  - name: NodeJS
+    link: http://nodejs.org/
+    desc: false
+    info:
+    - name: Telerik School Academy
+      link: https://www.youtube.com/playlist?list=PLF4lVL1sPDSmiF3qBNkxOcAQOsGFMJhSd
+
+    - name: MongoDB Node.JS Driver
+      link: https://github.com/mongodb/node-mongodb-native
+
+    - name: The Node Beginner Book
+      link: http://www.nodebeginner.org/
+
+    - name: 4h Video Tutorial
+      link: https://www.youtube.com/watch?v=Lgk3gAt9tsE
+
+  # - - - - - - - - - -
+
+  - name: AngularJS
+    link: https://angularjs.org/
+    desc: false
+    info:
+    - name: Code School
+      link: http://campus.codeschool.com/courses/shaping-up-with-angular-js/
+
+    - name: Telerik School Academy
+      link: https://www.youtube.com/playlist?list=PLF4lVL1sPDSnvKV5AedV0W47R6GCSfy0Y
+
+    - name: NodeJS Server
+      link: https://www.npmjs.org/package/angularjs-server
+
+    - name: Fundamentals in 60mins
+      link: "https://www.youtube.com/watch?v=i9MHigUZKEM&list=WL&index=19"
+
+  # - - - - - - - - - -
+
+  - name: MongoDB
+    link: http://www.mongodb.org/
+    desc: false
+    info:
+    - name: Introduction Video
+      link: http://www.mongodb.com/presentations/building-web-applications-mongodb-introduction?_ga=1.13774066.494537198.1415786911
+
+    - name: MongoDB for Node.js
+      link: https://university.mongodb.com/courses/M101JS/about
+
+    - name: PHP-ODM Mongator
+      link: https://github.com/mongator/mongator
+
+    - name: PHP-ODM Mandango
+      link: http://mandango.org/
+
+  # - - - - - - - - - -
+
+  - name: Firebase
+    link: http://requirejs.org/
+    desc: false
+    info:
+    - name: 5 Minute Tutorial
+      link: "https://www.firebase.com/tutorial/#tutorial/basic/0"
+
+  # - - - - - - - - - -
+
+  - name: Bower
+    link: http://bower.io/
+    desc: >
+      Bower works by fetching and installing packages from all over, taking care of hunting, finding, downloading, 
+      and saving the stuff you’re looking for. Bower is optimized for the front-end.
+    info: false
+
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+- title: Articles
+  entries:
+
+  - name: Tuts+
+    link: http://tutsplus.com/
+    desc: false
+    info:
+    - name: "Debugging part 1"
+      link: http://code.tutsplus.com/tutorials/modern-debugging-experience-part-1--cms-22571
+
+    - name: "Debugging part 2"
+      link: http://code.tutsplus.com/tutorials/modern-debugging-experience-part-2--cms-22584
+
+    - name: "Web App with Firebase #1"
+      link: http://code.tutsplus.com/tutorials/creating-a-web-app-from-scratch-using-angularjs-and-firebase--cms-22391
+
+    - name: Meet Underscore.js
+      link: http://code.tutsplus.com/tutorials/getting-cozy-with-underscorejs--net-24581
+
+  # - - - - - - - - - -
+
+  - name: Sitepoint
+    link: http://www.sitepoint.com/
+    info:
+    - name: Understanding RequireJS
+      link: http://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/
+
+  # - - - - - - - - - -
+
+  - name: Excellent Web World
+    link: http://www.excellentwebworld.com/
+    info:
+    - name: SQLite Plugin in Cordova
+      link: http://www.excellentwebworld.com/integrate-sqlite-plugin-in-phonegap-for-android-and-ios/
