@@ -24,5 +24,8 @@ skins:
   - skin: /css/bootstrap.slate.css
     name: Slate
 
-  - skin: /css/bootstrap.darkly.css"
+  - skin: /css/bootstrap.darkly.css
     name: Darkly
+
+  - skin: /css/bootstrap.simplex.css
+    name: Simplex
