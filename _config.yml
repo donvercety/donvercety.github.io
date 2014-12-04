@@ -29,3 +29,15 @@ skins:
 
   - skin: /css/bootstrap.simplex.css
     name: Simplex
+
+  - skin: /css/bootstrap.yeti.css
+    name: Yeti
+
+  - skin: /css/bootstrap.united.css
+    name: United
+
+  - skin: /css/bootstrap.superhero.css
+    name: Superhero
+
+  - skin: /css/bootstrap.sandstone.css
+    name: Sandstone
