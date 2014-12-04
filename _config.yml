@@ -19,8 +19,7 @@ markdown: kramdown
 permalink: pretty
 highlighter: true
 
-# Bootstrap Skins ( http://bootswatch.com/ )
-skins:
+skins: # Bootstrap Skins ( http://bootswatch.com/ )
   - skin: /css/bootstrap.slate.css
     name: Slate
 
@@ -41,3 +40,15 @@ skins:
 
   - skin: /css/bootstrap.sandstone.css
     name: Sandstone
+
+  - skin: /css/bootstrap.cyborg.css
+    name: Cyborg
+
+  - skin: /css/bootstrap.flatly.css
+    name: Flatly
+
+  - skin: /css/bootstrap.journal.css
+    name: Journal
+
+  - skin: /css/bootstrap.readable.css
+    name: Readable
