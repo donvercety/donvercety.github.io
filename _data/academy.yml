@@ -135,7 +135,9 @@
     info:
     - name: SQLite Plugin in Cordova
       link: http://www.excellentwebworld.com/integrate-sqlite-plugin-in-phonegap-for-android-and-ios/
-      
+  
+  # - - - - - - - - - -
+  
   - name: Airpair
     link: https://www.airpair.com/
     desc: false
