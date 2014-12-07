@@ -187,6 +187,17 @@
     Run Android APKs in Chrome OS OR Chrome in OS X, Linux and Windows.
   info: false
 
+- name: VideoJS
+  link: https://github.com/donvercety/video.js
+  language: js
+  desc: >
+    Video.js is a web video player built from the ground up for an HTML5 world. It 
+    supports HTML5 and Flash video, as well as YouTube and Vimeo (through plugins). 
+    It supports video playback on desktops and mobile devices.
+  info:
+  - name: The open source HTML5 Video Player
+    link: http://www.videojs.com/
+
 # = = = = = = = = = = => XBMC
 
 - name: Stream
