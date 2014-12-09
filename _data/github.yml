@@ -200,7 +200,7 @@
 
 # = = = = = = = = = = => CSS
 
-- name: PixelKit Bootstrap-UI-Kits
+- name: PixelKit UI-Kits
   link: https://github.com/donvercety/PixelKit-Bootstrap-UI-Kits
   language: css
   desc: >
