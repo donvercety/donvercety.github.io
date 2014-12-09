@@ -198,6 +198,15 @@
   - name: The open source HTML5 Video Player
     link: http://www.videojs.com/
 
+# = = = = = = = = = = => CSS
+
+- name: PixelKit Bootstrap-UI-Kits
+  link: https://github.com/donvercety/PixelKit-Bootstrap-UI-Kits
+  language: css
+  desc: >
+    Free UI Kits built on Bootstrap.
+  info: false
+
 # = = = = = = = = = = => XBMC
 
 - name: Stream
