@@ -15,8 +15,8 @@ description: >
   is returned by the AJAX call.
 ---
 
-jQuery: Return data after success AJAX call
----------------------------------------------
+jQuery: Return data after success AJAX call  
+-------------------------------------------  
 
 
 #### Using a callback:
