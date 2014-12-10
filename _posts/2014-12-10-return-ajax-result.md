@@ -21,7 +21,7 @@ The only way to return the data from the function would be to make a synchronous
 
 You can pass in a callback function that handles the result:
 
-```javascript
+{% highlight js %} 
 function testAjax(handleData) {
   $.ajax({
     url:"getvalue.php",  
@@ -30,22 +30,22 @@ function testAjax(handleData) {
     }
   });
 }
-```
+{% endhighlight %}
 
 Call it like this:
 
-```javascript
+{% highlight js %} 
 testAjax(function(output){
   // here you use the output
 });
 // Note: the call won't wait for the result,
 // so it will continue with the code here while waiting.
-```
+{% endhighlight %}
 
 #### Using a promise:
 
 You can't return anything from a function that is asynchronous. What you can return is a promise.
-```javascript
+{% highlight js %} 
 function testAjax() {
   return $.ajax({
       url: "getvalue.php"
@@ -54,13 +54,13 @@ function testAjax() {
 
 // get your promise like this
 var promise = testAjax();
-```
+{% endhighlight %}
 
 You can store your promise, you can pass it around, you can use it as an argument in function calls and you can return it from functions, but when you finally want to use your data that is returned by the AJAX call, you have to do it like this:
 
-```javascript
+{% highlight js %} 
 promise.success(function (data) {
   alert(data);
 });
-```
+{% endhighlight %}
 Source [Stack Overflow](http://stackoverflow.com/questions/5316697/jquery-return-data-after-ajax-call-success)
