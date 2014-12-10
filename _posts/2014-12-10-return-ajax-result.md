@@ -17,7 +17,7 @@ description: >
 
 jQuery: Return data after success AJAX call
 -------------------------------------------
-  
+---
 #### Using a callback:
 
 The only way to return the data from the function would be to make a synchronous call instead of an asynchronous call, but that would freeze up the browser while it's waiting for the response.
