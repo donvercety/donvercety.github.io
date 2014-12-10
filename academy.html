@@ -7,7 +7,7 @@ tab_number: 3
 
 {% for obj in site.data.academy %}
 <div class="col-md-6">
-	<h3 class="text-center">{{ obj.title }}</h3>
+	<!--<h3 class="text-center">{{ obj.title }}</h3>-->
 	<ul class="list-group">
 		
 		{% assign obj_entries = (obj.entries | sort: 'name') %} <!-- alphabetical sorting by name -->
