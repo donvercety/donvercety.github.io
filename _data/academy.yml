@@ -114,8 +114,9 @@
     - name: "Focusing on a Team Workflow With Git"
       link: http://code.tutsplus.com/tutorials/focusing-on-a-team-workflow-with-git--cms-22514
       
-    - name: "Open Source Social Networking - GNU Social"
+    - name: "Open Source Social Networking - GNU Social [can remove]"
       link: http://code.tutsplus.com/tutorials/revisiting-open-source-social-networking-installing-gnu-social--cms-22456
+      
     - name: "RESTful API Design With NodeJS & Restify"
       link: http://code.tutsplus.com/tutorials/restful-api-design-with-nodejs-restify--cms-22637
 
