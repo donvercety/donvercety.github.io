@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Return data after success - ajax call"
+title:  "Return data after success AJAX call"
 date:   2014-12-10 08:05:00
 category: javascript
 description: >
@@ -15,7 +15,7 @@ description: >
   is returned by the AJAX call.
 ---
 
-jQuery: Return data after success - ajax call
+jQuery: Return data after success AJAX call
 ---------------------------------------------
 
 #### Using a callback:
