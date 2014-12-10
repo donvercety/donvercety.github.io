@@ -86,6 +86,15 @@
       Bower works by fetching and installing packages from all over, taking care of hunting, finding, downloading, 
       and saving the stuff you’re looking for. Bower is optimized for the front-end.
     info: false
+    
+  # - - - - - - - - - -
+
+  - name: Heroku
+    link: https://www.heroku.com/
+    desc: >
+      Powerful platform built by developers for developers. Massively scalable, high performance cloud platform.
+      Heroku supports Ruby, Node.js, Python, Java, and PHP so you can use the languages you already know to build and deploy apps on Heroku.
+    info: false
 
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
