@@ -24,7 +24,7 @@ The only way to return the data from the function would be to make a synchronous
 
 You can pass in a callback function that handles the result:
 
-{% highlight ruby %} 
+{% highlight js linenos %} 
 function testAjax(handleData) {
   $.ajax({
     url:"getvalue.php",  
