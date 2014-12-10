@@ -24,7 +24,7 @@ The only way to return the data from the function would be to make a synchronous
 
 You can pass in a callback function that handles the result:
 
-{% highlight js %} 
+{% highlight js linenos %} 
 function testAjax(handleData) {
   $.ajax({
     url:"getvalue.php",  
@@ -37,7 +37,7 @@ function testAjax(handleData) {
 
 Call it like this:
 
-{% highlight js %} 
+{% highlight js linenos %} 
 testAjax(function(output){
   // here you use the output
 });
@@ -48,7 +48,7 @@ testAjax(function(output){
 #### Using a promise:
 
 You can't return anything from a function that is asynchronous. What you can return is a promise.
-{% highlight js %} 
+{% highlight js linenos %} 
 function testAjax() {
   return $.ajax({
       url: "getvalue.php"
@@ -61,7 +61,7 @@ var promise = testAjax();
 
 You can store your promise, you can pass it around, you can use it as an argument in function calls and you can return it from functions, but when you finally want to use your data that is returned by the AJAX call, you have to do it like this:
 
-{% highlight js %} 
+{% highlight js linenos %} 
 promise.success(function (data) {
   alert(data);
 });
