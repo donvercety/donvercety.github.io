@@ -94,7 +94,12 @@
     desc: >
       Powerful platform built by developers for developers. Massively scalable, high performance cloud platform.
       Heroku supports Ruby, Node.js, Python, Java, and PHP so you can use the languages you already know to build and deploy apps on Heroku.
-    info: false
+    info:
+    - name: "JackDB Access any Database Online"
+      link: https://app.jackdb.com/
+      
+    - name: "Codenvy Online IDE"
+      link: https://codenvy.com/
 
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
