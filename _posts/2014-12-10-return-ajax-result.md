@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "jQuery: Return data after success - ajax call"
+title:  "Return data after success - ajax call"
 date:   2014-12-10 08:05:00
 category: javascript
 description: >
