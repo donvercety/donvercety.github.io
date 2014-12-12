@@ -133,6 +133,9 @@
       
     - name: "RESTful API Design With NodeJS & Restify"
       link: http://code.tutsplus.com/tutorials/restful-api-design-with-nodejs-restify--cms-22637
+      
+    - name: "Token-Based Authentication With AngularJS & NodeJS"
+      links: http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543
 
   # - - - - - - - - - -
 
