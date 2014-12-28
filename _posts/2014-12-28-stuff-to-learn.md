@@ -21,6 +21,6 @@ description: >
 ### PHP Academy
 
 1. [Social Network](https://www.youtube.com/playlist?list=PLfdtiltiRHWEGcgVaEZQGoCNN4ye-5Hrc)
-2. Prevent Automated Form Spam - *Local Storage* (*implement for lubo.it*)
+2. [Prevent Automated Form Spam](#) - Local Storage ( *implement for lubo.it* )
 
 *todo: 30.12.2014*
