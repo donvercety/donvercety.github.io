@@ -4,7 +4,7 @@ title:  "Stuff to Learn"
 date:   2014-12-28 18:10:00
 category: coding
 description: >
-  Things to learn in the christmas break. NodeJS, JS-Games @ heroku.com, phpacademy
+  Things to learn. Check these technologies: [NodeJS], [JS-Games], [AngularJS], [PHP Academy]
 ---
 
 ### NodeJS
