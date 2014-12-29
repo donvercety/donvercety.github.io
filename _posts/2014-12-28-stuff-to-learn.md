@@ -28,4 +28,5 @@ description: >
 
 ### JS Games
 
-1. [Pong](https://www.youtube.com/watch?v=KApAJhkkqkA)
+1. [Snake](https://www.youtube.com/watch?v=uU5YPIvJ24Y)  
+2. [Pong](https://www.youtube.com/watch?v=KApAJhkkqkA)  
