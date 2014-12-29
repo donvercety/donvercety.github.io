@@ -24,6 +24,8 @@ description: >
 
 *todo: 30.12.2014*  
 
+---
+
 ### JS Games
 
 1. [Pong](https://www.youtube.com/watch?v=KApAJhkkqkA)
