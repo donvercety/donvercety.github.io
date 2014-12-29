@@ -20,6 +20,10 @@ description: >
 ### PHP Academy
 
 1. [Social Network](https://www.youtube.com/playlist?list=PLfdtiltiRHWEGcgVaEZQGoCNN4ye-5Hrc)
-2. [Prevent Automated Form Spam](https://www.youtube.com/watch?v=rYBomZIzrS4) ( implement for lubo.it )
+2. [Prevent Automated Form Spam](https://www.youtube.com/watch?v=rYBomZIzrS4) ( implement for lubo.it )  
 
-*todo: 30.12.2014*
+*todo: 30.12.2014*  
+
+### JS Games
+
+1. [Pong](https://www.youtube.com/watch?v=KApAJhkkqkA)
