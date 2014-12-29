@@ -12,7 +12,7 @@ description: >
 1. [Telerik School Academy](https://www.youtube.com/playlist?list=PLF4lVL1sPDSmiF3qBNkxOcAQOsGFMJhSd)  
 1.1. [Въведение в NodeJS](https://www.youtube.com/watch?v=kqhTrYr0lOw) [x]  
 1.2. [NodeJS уеб сървър](https://www.youtube.com/watch?v=OQM7HptXBXA) [x]  
-1.3. [Node JS в дълбочина](https://www.youtube.com/watch?v=qlNz_mrPni0&index=3&list=PLF4lVL1sPDSmiF3qBNkxOcAQOsGFMJhSd)  
+1.3. [Node JS в дълбочина](https://www.youtube.com/watch?v=qlNz_mrPni0&index=3&list=PLF4lVL1sPDSmiF3qBNkxOcAQOsGFMJhSd) [x]  
 1.3. [Node JS Express module](https://www.youtube.com/watch?v=tv3DsYIxU8c)
 
 ---
