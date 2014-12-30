@@ -20,9 +20,9 @@ description: >
 ### PHP
 
 1. [PHP Academy](https://www.youtube.com/channel/UCpOIUW62tnJTtpWFABxWZ8g)  
-1.1. [Social Network](https://www.youtube.com/playlist?list=PLfdtiltiRHWEGcgVaEZQGoCNN4ye-5Hrc)
+1.1. [Social Network](https://www.youtube.com/playlist?list=PLfdtiltiRHWEGcgVaEZQGoCNN4ye-5Hrc)  
 1.2. [Prevent Automated Form Spam](https://www.youtube.com/watch?v=rYBomZIzrS4)  
-1.2.1. implement for lubo.it
+ - implement for lubo.it
 
 ---
 
