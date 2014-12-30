@@ -9,7 +9,7 @@ description: >
 
 ### NodeJS
 
-1.0. [Telerik School Academy](https://www.youtube.com/playlist?list=PLF4lVL1sPDSmiF3qBNkxOcAQOsGFMJhSd)  
+1. [Telerik School Academy](https://www.youtube.com/playlist?list=PLF4lVL1sPDSmiF3qBNkxOcAQOsGFMJhSd)  
 1.1. [Въведение в NodeJS](https://www.youtube.com/watch?v=kqhTrYr0lOw) [x]  
 1.2. [NodeJS уеб сървър](https://www.youtube.com/watch?v=OQM7HptXBXA) [x]  
 1.3. [Node JS в дълбочина](https://www.youtube.com/watch?v=qlNz_mrPni0&index=3&list=PLF4lVL1sPDSmiF3qBNkxOcAQOsGFMJhSd) [x]  
@@ -19,7 +19,7 @@ description: >
 
 ### PHP
 
-1.0. [PHP Academy](https://www.youtube.com/channel/UCpOIUW62tnJTtpWFABxWZ8g)  
+1. [PHP Academy](https://www.youtube.com/channel/UCpOIUW62tnJTtpWFABxWZ8g)  
 1.1. [Social Network](https://www.youtube.com/playlist?list=PLfdtiltiRHWEGcgVaEZQGoCNN4ye-5Hrc)
 1.2. [Prevent Automated Form Spam](https://www.youtube.com/watch?v=rYBomZIzrS4)  
 1.2.1. implement for lubo.it
@@ -28,6 +28,6 @@ description: >
 
 ### JavaScript
 
-1.0. [Games](https://www.youtube.com/playlist?list=PLDu4C7CHISoKbi-do2VKUfS6cv36C57y4)  
+1. [Games](https://www.youtube.com/playlist?list=PLDu4C7CHISoKbi-do2VKUfS6cv36C57y4)  
 1.1. [Snake](https://www.youtube.com/watch?v=uU5YPIvJ24Y) [x]  
 1.2. [Pong](https://www.youtube.com/watch?v=KApAJhkkqkA)  
