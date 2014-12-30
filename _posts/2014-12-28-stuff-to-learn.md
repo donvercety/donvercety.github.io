@@ -28,7 +28,7 @@ description: >
 ### PHP
 
 1. [PHP Academy](https://www.youtube.com/channel/UCpOIUW62tnJTtpWFABxWZ8g)  
-1.1. [Social Network](https://www.youtube.com/playlist?list=PLfdtiltiRHWEGcgVaEZQGoCNN4ye-5Hrc)  
+1.1. [Social Network](https://www.youtube.com/playlist?list=PLfdtiltiRHWEGcgVaEZQGoCNN4ye-5Hrc)  (not full)  
 1.2. [Prevent Automated Form Spam](https://www.youtube.com/watch?v=rYBomZIzrS4) (implement for lubo.it)  
 1.3. [Dropbox API & PHP](https://www.youtube.com/playlist?list=PLfdtiltiRHWGOceoK3I3LrDL6x8mM0Ipb)  
 1.4. [Sign In With Twitter](https://www.youtube.com/playlist?list=PLfdtiltiRHWHRMnQjPn9G2c1_mbdST9Ao)  
