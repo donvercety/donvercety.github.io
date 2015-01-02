@@ -13,7 +13,7 @@ description: >
 1.1. [Въведение в NodeJS](https://www.youtube.com/watch?v=kqhTrYr0lOw) [x]  
 1.2. [NodeJS уеб сървър](https://www.youtube.com/watch?v=OQM7HptXBXA) [x]  
 1.3. [Node JS в дълбочина](https://www.youtube.com/watch?v=qlNz_mrPni0&index=3&list=PLF4lVL1sPDSmiF3qBNkxOcAQOsGFMJhSd) [x]  
-1.3. [Node JS Express module](http://youtu.be/tv3DsYIxU8c?t=51m22s)
+1.3. [Node JS Express module](http://youtu.be/tv3DsYIxU8c?t=1h37m36s)
 
 ---
 
