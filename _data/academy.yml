@@ -164,3 +164,12 @@
     info:
     - name: "Best Practices for Modern PHP Development"
       link: "https://www.airpair.com/php/posts/best-practices-for-modern-php-development#yDhY8veyH0gRJGXK.01"
+
+  # - - - - - - - - - -
+  
+  - name: This Interests Me
+    link: http://thisinterestsme.com/
+    desc: false
+    info:
+    - name: "PHP – Best Practises"
+      link: "http://thisinterestsme.com/php-best-practises/"
