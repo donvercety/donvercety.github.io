@@ -32,6 +32,9 @@
 
     - name: 4h Video Tutorial
       link: https://www.youtube.com/watch?v=Lgk3gAt9tsE
+      
+    - name: 'New Features of Node Express 4.0' 
+      link: 'http://blog.tompawlak.org/new-features-node-express-4'
 
   # - - - - - - - - - -
 
