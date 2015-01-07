@@ -35,6 +35,9 @@
       
     - name: 'New Features of Node Express 4.0' 
       link: 'http://blog.tompawlak.org/new-features-node-express-4'
+      
+    - name: 'RESTful API Using Node.js With Express and Mongoose'
+      link: 'http://pixelhandler.com/posts/develop-a-restful-api-using-nodejs-with-express-and-mongoose'
 
   # - - - - - - - - - -
 
