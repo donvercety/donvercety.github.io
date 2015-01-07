@@ -103,6 +103,15 @@
       
     - name: "Codenvy Online IDE"
       link: https://codenvy.com/
+  
+  # - - - - - - - - - -
+      
+  - name: Laravel
+    link: http://laravel.com/
+    desc: false
+    info:
+    - name: Laravel Framework Tutorials
+      link: 'http://e-torial.com/course/laravel_framework_138'
 
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
