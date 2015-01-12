@@ -47,3 +47,5 @@ description: >
 2. [Introduction to Javascript](https://www.youtube.com/playlist?list=PLF343117DF6341CA7) 
 3. [SoftUni](#)  
 3.1. [JavaScript OOP](https://www.youtube.com/playlist?list=PLlcYRzEHmgNk9JgFU7tXEAPcZX71oNXx6)  
+4. [Lynda.com](http://www.lynda.com/)    
+4.1. [Modern JavaScript](http://www.lynda.com/SharedPlaylist/0a5348d96ae04fb48690a5137ccadced)  
