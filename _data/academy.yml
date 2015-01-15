@@ -165,6 +165,9 @@
       
     - name: 'PHP Tips, Resources and Best Practices for 2015'
       link: http://www.sitepoint.com/php-tips-resources-best-practices-2015/?fb
+      
+    - name: 'Using Redis with Node.js'
+      link: 'http://www.sitepoint.com/using-redis-node-js/?utm_content=buffer446e0&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer'
 
   # - - - - - - - - - -
 
