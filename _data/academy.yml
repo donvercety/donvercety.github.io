@@ -115,6 +115,16 @@
     info:
     - name: Laravel Framework Tutorials
       link: 'http://e-torial.com/course/laravel_framework_138'
+      
+  # - - - - - - - - - -
+  
+  - name: Redis
+    link: http://redis.io/
+    desc: >
+      Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server.
+    info:
+    - name: RedisLabs - Cloud Database
+      link: https://redislabs.com/
 
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
