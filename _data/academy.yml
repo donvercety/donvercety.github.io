@@ -125,6 +125,17 @@
     info:
     - name: RedisLabs - Cloud Database
       link: https://redislabs.com/
+      
+  # - - - - - - - - - -
+  
+  - name: Node Webkit
+    link: https://github.com/nwjs/nw.js/tree/master
+    desc: >
+      You can write native desktop apps in HTML and JavaScript with node-webkit. It also lets you call Node.js 
+      modules directly from the DOM and enables a new way of writing native applications with all Web technologies.
+    info:
+    - name: Node-webkit Video Tutorial
+      link: http://nodehead.com/category/video-tutorials/mini-series/node-webkit/
 
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
