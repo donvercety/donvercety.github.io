@@ -52,3 +52,6 @@ skins: # Bootstrap Skins ( http://bootswatch.com/ )
 
   - skin: /css/bootstrap.readable.css
     name: Readable
+    
+  - skin: /css/bootstrap.cosmo.css
+    name: Cosmo
