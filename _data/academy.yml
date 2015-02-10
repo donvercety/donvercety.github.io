@@ -136,6 +136,14 @@
     info:
     - name: Node-webkit Video Tutorial
       link: http://nodehead.com/category/video-tutorials/mini-series/node-webkit/
+      
+  # - - - - - - - - - -
+  
+  - name: Blackfire
+    link: https://blackfire.io/
+    desc: >
+      Blackfire Profiler - Fire up your PHP Apps Performance
+    info: false
 
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
