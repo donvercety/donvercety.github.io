@@ -197,6 +197,15 @@
   info:
   - name: The open source HTML5 Video Player
     link: http://www.videojs.com/
+    
+- name: Messi
+  link: https://github.com/marcosesperon/Messi/
+  language: js
+  desc: >
+    Messi is a jQuery plugin to show clean, elegant messages in a simple way. With Messi
+    you will avoid to use default JavaScript alert notifications or new windows to provide
+    extended information to the user.
+  info: false
 
 # = = = = = = = = = = => CSS
 
