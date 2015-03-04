@@ -199,7 +199,13 @@
       link: http://www.sitepoint.com/php-tips-resources-best-practices-2015/?fb
       
     - name: 'Using Redis with Node.js'
-      link: 'http://www.sitepoint.com/using-redis-node-js/?utm_content=buffer446e0&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer'
+      link: 'http://www.sitepoint.com/using-redis-node-js'
+      
+    - name: 'Demystifying JavaScript Variable Scope and Hoisting'
+      link: 'http://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/'
+      
+    - name: 'Demystifying JavaScript Closures, Callbacks and IIFEs'
+      link: 'http://www.sitepoint.com/demystifying-javascript-closures-callbacks-iifes/'
 
   # - - - - - - - - - -
 
