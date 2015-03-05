@@ -189,14 +189,14 @@
   - name: Sitepoint
     link: http://www.sitepoint.com/
     info:
-    - name: Understanding RequireJS
-      link: http://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/
+    - name: 'Understanding RequireJS'
+      link: 'http://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/'
     
-    - name: Develop Cross Platform Desktop Apps with PHP
-      link: http://www.sitepoint.com/3-ways-develop-cross-platform-desktop-apps-php/?fb
+    - name: 'Develop Cross Platform Desktop Apps with PHP'
+      link: 'http://www.sitepoint.com/3-ways-develop-cross-platform-desktop-apps-php/'
       
     - name: 'PHP Tips, Resources and Best Practices for 2015'
-      link: http://www.sitepoint.com/php-tips-resources-best-practices-2015/?fb
+      link: 'http://www.sitepoint.com/php-tips-resources-best-practices-2015/'
       
     - name: 'Using Redis with Node.js'
       link: 'http://www.sitepoint.com/using-redis-node-js'
@@ -206,6 +206,9 @@
       
     - name: 'Demystifying JavaScript Closures, Callbacks and IIFEs'
       link: 'http://www.sitepoint.com/demystifying-javascript-closures-callbacks-iifes/'
+      
+    - name: 'Understanding Variable Scope & Closures Without Losing your Mind'
+      link: 'http://www.sitepoint.com/understanding-variable-scope-closures-without-losing-mind/'
 
   # - - - - - - - - - -
 
