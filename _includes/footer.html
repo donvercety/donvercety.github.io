@@ -1,26 +1,53 @@
 <footer>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-	<script src={{ "/js/myCookie.js" | prepend: site.baseurl | prepend: site.url }}></script>
+	<!--<script src={{ "/js/myCookie.js" | prepend: site.baseurl | prepend: site.url }}></script>-->
 	<script type="text/javascript">
+	
+	    var myCookie = {
+            createCookie: function(name, value, days) {
+                var expires;
+                if (days) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                    expires = "; expires=" + date.toGMTString();
+                } else {
+                    expires = "";
+                }
+                document.cookie = escape(name) + "=" + escape(value) + expires + "; path=/";
+            },
+        
+            readCookie: function(name) {
+                var nameEQ = escape(name) + "=";
+                var ca     = document.cookie.split(';');
+        
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) === ' ') {
+                        c = c.substring(1, c.length);
+                    }
+                    if (c.indexOf(nameEQ) === 0) {
+                        return unescape(c.substring(nameEQ.length, c.length));
+                    }
+                }
+                return null;
+            },
+        
+            eraseCookie: function(name) {
+                return this.createCookie(name, "", -1);
+            }
+        };
+	
         $(function() {
-            
-            var myCookie = myCookie;
-
-            if( myCookie.readCookie('style') )
-            {
+            if( myCookie.readCookie('style') ) {
                 $('#style').attr( "href", myCookie.readCookie('style') );
             }
 
-            $('#switch').find('a').on('click', function()
-            {
+            $('#switch').find('a').on('click', function() {
                 var style = $(this).attr('rel');
                 myCookie.createCookie('style', style, 356);
                 $('#style').attr( "href", myCookie.readCookie('style') );
             });
-
         });
-        
-        
     </script>
 </foote>
