@@ -3,7 +3,13 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	<!--<script src={{ "/js/myCookie.js" | prepend: site.baseurl | prepend: site.url }}></script>-->
 	<script type="text/javascript">
-	
+	    
+	    /*
+	     | Problem: cookie wrapper doesn't work in include script tag.
+	     | Must be initialized here for proper functionality.
+	     | Find solution..?
+	     */
+	    
 	    var myCookie = {
             createCookie: function(name, value, days) {
                 var expires;
