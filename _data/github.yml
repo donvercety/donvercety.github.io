@@ -252,3 +252,14 @@
   desc: >
     Auto trigger XBMC Subtitle download if no subtitle (language) is found for a Movie/TV Show.
   info: false
+  
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+# :: Information
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+  
+- name: You Don't Know JS
+  link: https://github.com/getify/You-Dont-Know-JS
+  desc: >
+    A book series on JavaScript. @YDKJS on twitter. This is a series of books
+    diving deep into the core mechanisms of the JavaScript language.
+  info: false
