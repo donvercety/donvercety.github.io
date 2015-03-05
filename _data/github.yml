@@ -259,6 +259,7 @@
   
 - name: You Don't Know JS
   link: https://github.com/getify/You-Dont-Know-JS
+  language: info
   desc: >
     A book series on JavaScript. @YDKJS on twitter. This is a series of books
     diving deep into the core mechanisms of the JavaScript language.
