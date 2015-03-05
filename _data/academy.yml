@@ -183,7 +183,7 @@
 - title: Articles
   entries:
 
-  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - -
   # :: Tuts+
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -242,6 +242,9 @@
       
     - name: 'Understanding Variable Scope & Closures (video)'
       link: 'http://www.sitepoint.com/understanding-variable-scope-closures-without-losing-mind/'
+      
+    - name: 'Easy URL Parsing With Isomorphic JavaScript'
+      link: 'http://www.sitepoint.com/url-parsing-isomorphic-javascript/'
 
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   # :: Excellent Web World
