@@ -1,4 +1,6 @@
-# = = = = = = = = = = => PHP
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+# :: PHP
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
 - name: Slim Microframework
   link: https://github.com/codeguy/Slim
@@ -147,7 +149,9 @@
     and Jinja template languages which inspired the Twig runtime environment.
   info: false
 
-# = = = = = = = = = = => JS
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+# :: JavaScript
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
 - name: ValidateJS
   link: https://github.com/rickharrison/validate.js
@@ -207,7 +211,9 @@
     extended information to the user.
   info: false
 
-# = = = = = = = = = = => CSS
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+# :: CSS
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
 - name: PixelKit UI-Kits
   link: https://github.com/donvercety/PixelKit-Bootstrap-UI-Kits
@@ -216,7 +222,9 @@
     Free UI Kits built on Bootstrap.
   info: false
 
-# = = = = = = = = = = => XBMC
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+# :: XBMC/KODI
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
 - name: Stream
   link: https://github.com/brysonreece/Stream

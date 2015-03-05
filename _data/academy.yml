@@ -1,5 +1,13 @@
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+# :: Apprentice
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
 - title: Apprentice
   entries:
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: Cordova
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
   - name: Cordova
     link: http://cordova.apache.org/
@@ -8,7 +16,9 @@
     - name: SQLite Plugin
       link: https://github.com/brodysoft/Cordova-SQLitePlugin
 
-  # - - - - - - - - - -
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: Ionic
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
   - name: Ionic
     link: http://ionicframework.com/
@@ -39,7 +49,9 @@
     - name: 'RESTful API Using Node.js With Express and Mongoose'
       link: 'http://pixelhandler.com/posts/develop-a-restful-api-using-nodejs-with-express-and-mongoose'
 
-  # - - - - - - - - - -
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: AngularJS
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
   - name: AngularJS
     link: https://angularjs.org/
@@ -57,7 +69,9 @@
     - name: Fundamentals in 60mins
       link: "https://www.youtube.com/watch?v=i9MHigUZKEM&list=WL&index=19"
 
-  # - - - - - - - - - -
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: MongoDB
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
   - name: MongoDB
     link: http://www.mongodb.org/
@@ -78,7 +92,9 @@
     - name: Robomongo
       link: http://robomongo.org/
 
-  # - - - - - - - - - -
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: Firebase
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
   - name: Firebase
     link: http://requirejs.org/
@@ -87,7 +103,9 @@
     - name: 5 Minute Tutorial
       link: "https://www.firebase.com/tutorial/#tutorial/basic/0"
 
-  # - - - - - - - - - -
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: Bower
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
   - name: Bower
     link: http://bower.io/
@@ -96,7 +114,9 @@
       and saving the stuff you’re looking for. Bower is optimized for the front-end.
     info: false
     
-  # - - - - - - - - - -
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: Heroku
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
   - name: Heroku
     link: https://www.heroku.com/
@@ -110,7 +130,9 @@
     - name: "Codenvy Online IDE"
       link: https://codenvy.com/
   
-  # - - - - - - - - - -
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: Laravel
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
       
   - name: Laravel
     link: http://laravel.com/
@@ -119,7 +141,9 @@
     - name: Laravel Framework Tutorials
       link: 'http://e-torial.com/course/laravel_framework_138'
       
-  # - - - - - - - - - -
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: Redis
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   
   - name: Redis
     link: http://redis.io/
@@ -129,7 +153,9 @@
     - name: RedisLabs - Cloud Database
       link: https://redislabs.com/
       
-  # - - - - - - - - - -
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: Node Webkit
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   
   - name: Node Webkit
     link: https://github.com/nwjs/nw.js/tree/master
@@ -140,7 +166,9 @@
     - name: Node-webkit Video Tutorial
       link: http://nodehead.com/category/video-tutorials/mini-series/node-webkit/
       
-  # - - - - - - - - - -
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: Blackfire
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   
   - name: Blackfire
     link: https://blackfire.io/
@@ -148,10 +176,16 @@
       Blackfire Profiler - Fire up your PHP Apps Performance
     info: false
 
-# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+# :: Articles
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
 - title: Articles
   entries:
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: Tuts+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
   - name: Tuts+
     link: http://tutsplus.com/
@@ -175,16 +209,15 @@
     - name: "Focusing on a Team Workflow With Git"
       link: http://code.tutsplus.com/tutorials/focusing-on-a-team-workflow-with-git--cms-22514
       
-    - name: "Open Source Social Networking - GNU Social [can remove]"
-      link: http://code.tutsplus.com/tutorials/revisiting-open-source-social-networking-installing-gnu-social--cms-22456
-      
     - name: "RESTful API Design With NodeJS & Restify"
       link: http://code.tutsplus.com/tutorials/restful-api-design-with-nodejs-restify--cms-22637
       
     - name: "Token-Based Authentication With AngularJS & NodeJS"
       link: http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543
 
-  # - - - - - - - - - -
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: Sitepoint
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
   - name: Sitepoint
     link: http://www.sitepoint.com/
@@ -210,7 +243,9 @@
     - name: 'Understanding Variable Scope & Closures (video)'
       link: 'http://www.sitepoint.com/understanding-variable-scope-closures-without-losing-mind/'
 
-  # - - - - - - - - - -
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: Excellent Web World
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
   - name: Excellent Web World
     link: http://www.excellentwebworld.com/
@@ -218,7 +253,9 @@
     - name: SQLite Plugin in Cordova
       link: http://www.excellentwebworld.com/integrate-sqlite-plugin-in-phonegap-for-android-and-ios/
   
-  # - - - - - - - - - -
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: Airpair
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   
   - name: Airpair
     link: https://www.airpair.com/
@@ -227,7 +264,9 @@
     - name: "Best Practices for Modern PHP Development"
       link: "https://www.airpair.com/php/posts/best-practices-for-modern-php-development#yDhY8veyH0gRJGXK.01"
 
-  # - - - - - - - - - -
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: This Interests Me
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   
   - name: This Interests Me
     link: http://thisinterestsme.com/
