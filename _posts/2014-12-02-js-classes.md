@@ -31,29 +31,78 @@ var name = {
 };
 
 name.methodTwo('hello');
-
 {% endhighlight %}
 
-2. Function-like Class, it must be instantiated before usage.
+2. Function-like Class using prototype, it must be instantiated before usage.
 
 {% highlight js %}
-var name = (function() {
+// namespace 'Office'
+var Office = Office || {};
 
-	// Constructor
-	function SomeName() {
-		// code
-	}
+Office.Users = (function() {
 
-	SomeName.prototype.methodName = function() {
-		// code
-	};
+  // constructor
+  function user() {
+    console.log(isAdmin('pesho'));
+  }
 
-	return SomeName;
+  // private properties
+  user.username = 'unknown';
+  user.age      = 'unknown';
+
+  // public properties
+  user.prototype.state  = 'development';
+  user.prototype.deploy = false;
+
+  // private method
+  function isAdmin(name) {
+    return name == 'admin' ? true : false;
+  }
+
+  // public methods
+  user.prototype.setUsername = function(username) {
+    user.username = username;
+  };
+
+  user.prototype.getUsername = function() {
+    return user.username;
+  };
+
+  user.prototype.setAge = function(age) {
+    user.age = age;
+  };
+
+  user.prototype.getAge = function() {
+    return user.age;
+  };
+
+	return user;
 
 }());
 
-var test = new name();
+var test = new Office.Users();
+{% endhighlight %}
 
+3. Function-like Class, it must be instantiated before usage.
+{% highlight js %}
+function cityLocation() {
+  var city = "Paris";
+
+  return {
+    get: function() {
+      console.log(city);
+    }, 
+    set: function(newCity) {
+      city = newCity;
+    }
+  };
+}
+
+var myLocation = cityLocation();
+
+myLocation.get();           // output: Paris
+myLocation.set('Sydney');
+myLocation.get();           // output: Sydney
 {% endhighlight %}
 
 JavaScript is a very flexible object-oriented language when it 
