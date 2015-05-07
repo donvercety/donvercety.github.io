@@ -283,7 +283,7 @@
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   
   - name: Mix
-    link: false
+    link: #
     desc: false
     info:
     - name: "8 Places to Learn Coding Online for Free"
