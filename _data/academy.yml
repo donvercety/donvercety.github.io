@@ -277,3 +277,14 @@
     info:
     - name: "PHP – Best Practises"
       link: "http://thisinterestsme.com/php-best-practises/"
+      
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  # :: mix
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  
+  - name: Mix
+    link: false
+    desc: false
+    info:
+    - name: "8 Places to Learn Coding Online for Free"
+      link: "http://www.cakephpexpert.com/blog/8-places-learn-coding-online-free"
