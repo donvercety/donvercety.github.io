@@ -266,11 +266,7 @@
     info:
     - name: "Best Practices for Modern PHP Development"
       link: "https://www.airpair.com/php/posts/best-practices-for-modern-php-development#yDhY8veyH0gRJGXK.01"
-      
-  - name: Airpair
-    link: https://www.airpair.com/
-    desc: false
-    info:
+  
     - name: "Top 10 Mistakes Node.js Developers Mak"
       link: "https://www.airpair.com/node.js/posts/top-10-mistakes-node-developers-make"
 
