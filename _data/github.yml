@@ -210,6 +210,13 @@
     you will avoid to use default JavaScript alert notifications or new windows to provide
     extended information to the user.
   info: false
+  
+- name: EmailJS
+  link: https://github.com/eleith/emailjs
+  language: js
+  desc: >
+    Send e-mails, html and attachments (files, streams and strings) from node.js to any smtp server.
+  info: false
 
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 # :: CSS
