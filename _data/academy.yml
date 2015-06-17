@@ -245,6 +245,9 @@
       
     - name: 'Easy URL Parsing With Isomorphic JavaScript'
       link: 'http://www.sitepoint.com/url-parsing-isomorphic-javascript/'
+      
+    - name: 'Building a Native App with JavaScript Using NativeScript'
+      link: 'http://www.sitepoint.com/building-native-app-javascript-using-nativescript/'
 
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   # :: Excellent Web World
