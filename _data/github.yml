@@ -274,3 +274,10 @@
     A book series on JavaScript. @YDKJS on twitter. This is a series of books
     diving deep into the core mechanisms of the JavaScript language.
   info: false
+  
+- name: Exploring ES6
+  link: https://leanpub.com/exploring-es6/read
+  language: info
+  desc: >
+    Upgrade to the next version of JavaScript.
+  info: false
