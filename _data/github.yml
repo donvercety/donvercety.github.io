@@ -231,6 +231,13 @@
   desc: >
     Free UI Kits built on Bootstrap.
   info: false
+  
+- name: Materialize
+  link: http://materializecss.com/
+  language: css
+  desc: >
+    A modern responsive front-end framework based on Material Design.
+  info: false
 
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 # :: XBMC/KODI
