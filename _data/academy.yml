@@ -251,6 +251,9 @@
       
     - name: 'Appserver – a Production-ready PHP-based Server'
       link: 'http://www.sitepoint.com/appserver-a-production-ready-php-based-server/'
+      
+    - name: 'A Guide to Vanilla Ajax Without jQuery'
+      link: 'http://www.sitepoint.com/guide-vanilla-ajax-without-jquery/'
 
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   # :: Excellent Web World
