@@ -213,7 +213,7 @@
 
 - name: JS Cookie
   link: https://github.com/js-cookie/js-cookie
-  language: jQuery
+  language: js
   desc: >
     A simple, lightweight JavaScript API for handling cookies.
   info: false
