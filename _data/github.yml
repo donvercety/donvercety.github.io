@@ -210,6 +210,32 @@
     you will avoid to use default JavaScript alert notifications or new windows to provide
     extended information to the user.
   info: false
+
+- name: JS Cookie
+  link: https://github.com/js-cookie/js-cookie
+  language: jQuery
+  desc: >
+    A simple, lightweight JavaScript API for handling cookies.
+  info: false
+
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+# :: jQuery Plugins
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+- name: jQuery Storage
+  link: https://github.com/yckart/jquery.storage.js
+  language: jQuery
+  desc: >
+    The client-side storage for every browser, on any device.
+  info: false
+  
+- name: jQuery Cookie
+  link: https://github.com/carhartl/jquery-cookie
+  language: jQuery
+  desc: >
+    No longer maintained, superseded by JS Cookie.
+  info: false
+
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 # :: Node JS
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
