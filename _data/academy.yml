@@ -254,6 +254,9 @@
       
     - name: 'A Guide to Vanilla Ajax Without jQuery'
       link: 'http://www.sitepoint.com/guide-vanilla-ajax-without-jquery/'
+      
+     - name: 'PHP Authorization with JWT (JSON Web Tokens)'
+       link: 'http://www.sitepoint.com/php-authorization-jwt-json-web-tokens/'
 
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   # :: Excellent Web World
