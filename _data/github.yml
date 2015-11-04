@@ -148,6 +148,13 @@
     Twig is a template language for PHP, it uses a syntax similar to the Django 
     and Jinja template languages which inspired the Twig runtime environment.
   info: false
+  
+- name: phpRedisAdmin
+  link: https://github.com/ErikDubbelboer/phpRedisAdmin
+  language: php
+  desc: >
+    Simple web interface to manage Redis databases.
+  info: false
 
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 # :: JavaScript
