@@ -257,6 +257,9 @@
       
     - name: 'PHP Authorization with JWT (JSON Web Tokens)'
       link: 'http://www.sitepoint.com/php-authorization-jwt-json-web-tokens/'
+      
+    - name: 'How to Build a File Upload Form with Express and Dropzone.js'
+      link: 'http://www.sitepoint.com/file-upload-form-express-dropzone-js/'
 
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   # :: Excellent Web World
