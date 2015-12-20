@@ -260,6 +260,9 @@
       
     - name: 'How to Build a File Upload Form with Express and Dropzone.js'
       link: 'http://www.sitepoint.com/file-upload-form-express-dropzone-js/'
+      
+    - name: 'Simple Inheritance with JavaScript'
+      link: 'http://www.sitepoint.com/simple-inheritance-javascript/'
 
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   # :: Excellent Web World
