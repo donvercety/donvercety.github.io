@@ -263,6 +263,9 @@
       
     - name: 'Simple Inheritance with JavaScript'
       link: 'http://www.sitepoint.com/simple-inheritance-javascript/'
+      
+    - name: 'Using Modern CSS to Build a Responsive Image Grid'
+      link: 'http://www.sitepoint.com/using-modern-css-to-build-a-responsive-image-grid/'
 
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   # :: Excellent Web World
