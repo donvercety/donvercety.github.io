@@ -214,6 +214,9 @@
       
     - name: "Token-Based Authentication With AngularJS & NodeJS"
       link: http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543
+      
+    - name: "Why you Should be using PHP's PDO for Database Access"
+      link: http://code.tutsplus.com/tutorials/why-you-should-be-using-phps-pdo-for-database-access--net-12059
 
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   # :: Sitepoint
